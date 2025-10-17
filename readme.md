@@ -12,6 +12,9 @@
 - A state-of-the-art open-source agent utilizing (as many as possible) free tools; the only paid tool is the Google Search API, which can be replaced with the free DuckDuckGo API if needed.
 - Fully reproducible open-source SFT training recipe that outperforms RL-based models like WebDancer and WebSailor—no RL required.
 
+## Updates
+
+- 10/17/2025: A technical report on synthesizing DeepResearch agent data has been released! Checkout the paper [Explore to Evolve: Scaling Evolved Aggregation Logic via Proactive Online Exploration for Deep Research Agents](https://arxiv.org/abs/2510.14438), the GitHub repo [WebAggregator](https://github.com/Tencent/WebAggregator).
 
 ## Running Cognitive Kernel-Pro (CogKernel-Pro for short) Agent
 
@@ -288,6 +291,7 @@ python convert_sft.py --input_file /path/to/trajectory.output.jsonl --output_fil
 - [DocBench](https://github.com/Anni-Zou/DocBench): Data generation for document agents.
 - [PersonaHub](https://github.com/tencent-ailab/persona-hub): Scaling Synthetic Data Creation with 1,000,000,000 Personas
 - [MobileGUI-RL](https://arxiv.org/abs/2507.05720): MobileGUI-RL: Advancing Mobile GUI Agent through Reinforcement Learning in Online Environment
+- [WebAggregator](https://github.com/Tencent/WebAggregator): Explore to Evolve: Scaling Evolved Aggregation Logic via Proactive Online Exploration for Deep Research Agents
 
 ## Cite this work
 
